@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email">
+    </TextView>
+    <EditText
+        android:id="@+id/isiemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Isikan Username Anda"
+        android:layout_below="@+id/email">
+    </EditText>
+
+    <TextView
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/isiemail">
+    </TextView>
+    <EditText
+        android:id="@+id/isipassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Isikan Password Anda"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/password">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin"
+        android:layout_below="@id/isipassword"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Login">
+    </Button>
+
+</RelativeLayout>
